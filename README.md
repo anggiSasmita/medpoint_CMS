@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# CMS (WEB APPLICATION)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Proyek CMS ini adalah aplikasi berbasis web yang dibangun menggunakan React JS dengan TypeScript. Aplikasi ini berfungsi sebagai antarmuka manajemen konten untuk admin, memungkinkan pengelolaan data yang disimpan di Supabase.
+
+Teknologi yang Digunakan
+
+Bahasa Pemrograman: TypeScript
+
+Framework: React JS
+
+Database: Supabase (PostgreSQL)
+
+Lainnya: Supabase JS SDK
 
 ## Available Scripts
 
