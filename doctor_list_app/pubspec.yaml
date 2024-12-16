@@ -12,14 +12,24 @@ dependencies:
     sdk: flutter
   supabase_flutter: ^2.0.0 
   cupertino_icons: ^1.0.8
-  flutter_dotenv: ^5.2.1
+  flutter_dotenv: ^5.0.2
+  http: ^0.13.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  http: ^0.13.3
+  mockito: ^5.0.0  # Correct indentation for mockito
 
 flutter:
   uses-material-design: true
+
   assets:
-    - assets/
+    - assets/mediverse.png
+    - assets/images/dr._jane_smith.png
+    - assets/images/dr._alice_brown.png
+    - assets/images/dr._bob_white.png
+    - assets/images/dr._amit_patel.png
+    - assets/images/dr._anna_berry.png
+    - assets/images/dr._neha_gupta.png
+    - assets/images/dr._rajesh_kumar.png
+    - assets/images/dr._selana.png
