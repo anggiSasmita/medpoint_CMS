@@ -1,21 +1,31 @@
 {
-<<<<<<< HEAD
-  "name": "mediverse-login",
+  "name": "medpoint",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.47.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
-    "react-router-dom": "^7.0.2"
+    "react-router-dom": "^7.0.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.120",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
@@ -32,30 +42,6 @@
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.15.0",
     "vite": "^6.0.1"
-=======
-  "name": "medpoint",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@supabase/supabase-js": "^2.46.2",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.120",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -74,6 +60,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> cf48462b2b2b7b71f3ed3b4282fdc94296e68200
   }
 }
