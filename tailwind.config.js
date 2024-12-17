@@ -1,12 +1,10 @@
-module.exports = {
-  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+// tailwind.config.js
+export default {
+  content: [
+    './src/**/*.{html,js,ts,jsx,tsx}',
+  ],
   theme: {
-    extend: {
-      padding: {
-        '1': '0.25rem',   // Menambah padding lebih kecil
-        '2': '0.5rem',    // Padding yang lebih kecil
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
