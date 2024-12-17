@@ -4,8 +4,8 @@ import { createClient } from "@supabase/supabase-js";
 import { FaHome, FaCog, FaUser, FaSignOutAlt } from "react-icons/fa"; // React Icons
 
 const supabase = createClient(
-  "https://gercqdrpnwbungwtmigf.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlcmNxZHJwbndidW5nd3RtaWdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzMzODE2NDksImV4cCI6MjA0ODk1NzY0OX0.u6QxKNZ2aAzskgc8J3EuQgDyrTVtuDnzeWdJtk16dIQ"
+ 'https://gercqdrpnwbungwtmigf.supabase.co', 
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlcmNxZHJwbndidW5nd3RtaWdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzM3NTM2MjEsImV4cCI6MjA0OTMyOTYyMX0.hR0Ndvu6lMmGmQDww6_G5SFMfdghUUcc5mkZpwKwPn0'
 );
 
 const Dashboard: React.FC = () => {
